@@ -8,7 +8,7 @@ module.exports = {
     // 基本路径
     publicPath: process.env.NODE_ENV == 'development' ? './' : '/admin/',
     devServer: {
-        port: 9999,
+        port: 8888,
         open: true
     },
     configureWebpack: {
@@ -29,5 +29,6 @@ module.exports = {
             .set('@ast', resolve('src/assets'))
             .set('@u',resolve('src/utils'))
             .set('@v',resolve('src/views'))
+            .set('@cfg',resolve('src/config'))
     }
 }

@@ -9,10 +9,13 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI)
 
 //引入工具类对象
-import utils from '@u/index'
+import utils from '@u/index';
 Vue.prototype.utils = utils;
 
+
 Vue.config.productionTip = false
+
+import '@ast/css/app.less';
 
 new Vue({
     router,

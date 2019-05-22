@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<el-button @click='test'>哈哈</el-button>
+		<router-view></router-view>
 	</div>
 </template>
 <script>
@@ -15,9 +15,7 @@
 		},
 		//mounted () {},
 		methods : {
-			test () {
-				this.utils.msg('哈哈')
-			}
+			
 		}
 	}
 </script>

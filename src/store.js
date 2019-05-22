@@ -4,7 +4,11 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-    state : {},
+    state : {
+        config : {
+            isAgent : true,//是否开启代理
+        }
+    },
     mutations : {},
     actions : {}
 })
