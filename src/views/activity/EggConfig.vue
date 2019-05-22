@@ -27,17 +27,6 @@
 								<el-input placeholder="请设置对应奖励U币数量" v-model="scope.row.coin"></el-input>
 							</template>
 						</el-table-column>
-						<el-table-column prop='id' label='奖品图片(将在中奖后展示给用户)'>
-							<template slot-scope='scope'>
-								<el-upload
-									:show-file-list='false'
-									action='http://flag.xmwxxx.com/admin/wechat/upload'
-									name='cert'>
-									<img src="" alt="" v-if='scope.row.img'>
-									<el-button type="primary" size="small" icon="el-icon-upload" v-else>点击上传</el-button>
-								</el-upload>
-							</template>
-						</el-table-column>
 					</el-table>
 					<p class="tips">请确保所有奖品的中奖率之和为100</p>
 				</el-form-item>
@@ -60,19 +49,19 @@
 					{
 						rate : 10,//中奖概率
 						coin : 10,//奖励U币数量
-						img : null,//奖品图片
+						
 					},{
 						rate : 10,//中奖概率
 						coin : 10,//奖励U币数量
-						img : null,//奖品图片
+					
 					},{
 						rate : 10,//中奖概率
 						coin : 10,//奖励U币数量
-						img : null,//奖品图片
+						
 					},{
 						rate : 10,//中奖概率
 						coin : 10,//奖励U币数量
-						img : null,//奖品图片
+						
 					}
 				]
 			}
@@ -88,7 +77,7 @@
 				this.prize_config.push({
 					rate : null,//中奖概率
 					coin : null,//奖励U币数量
-					img : null,//奖品图片
+					
 				})
 			},
 			/* 减少奖品设置 */

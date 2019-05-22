@@ -113,7 +113,7 @@ let menu = [
 				name : '砸金蛋活动设置',
 				path : '/index/egg-config'
 			},{
-				id : '6-1',
+				id : '6-2',
 				name : '砸金蛋中奖纪录',
 				path : '/index/egg-winning-record'
 			}
