@@ -54,8 +54,20 @@ let menu = [
 				path : '/index/product-submit'
 			},{
 				id : '7-2',
-				name : '商品数据',
+				name : '所有商品',
 				path : '/index/product-data'
+			},{
+				id : '7-3',
+				name : '快递设置',
+				path : '/index/express-setting'
+			},{
+				id : '7-4',
+				name : '商品规格属性管理',
+				path : '/index/product-attr-setting'
+			},{
+				id : '7-5',
+				name : '邮费策略',
+				path : '/index/postage-setting'
 			}
 		]
 	},{

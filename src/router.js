@@ -53,6 +53,9 @@ let router = new Router({
 				},{//商品数据
 					path : 'product-data',
 					component : () => import('./views/product/ProductData'),
+				},{//商品规格属性管理
+					path : 'product-attr-setting',
+					component : () => import('./views/product/ProductAttrSetting'),
 				},{//用户管理
 					path : 'member',
 					component : () => import('./views/member/Index'),

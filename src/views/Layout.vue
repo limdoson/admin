@@ -3,7 +3,7 @@
 		<!--顶部header-->
 		<el-header class='s-b'>
 			<router-link class="sys-name" tag='div' to='/index'>
-				系统名称
+				<img src="../assets/img/img.png" alt="">
 			</router-link>
 			<!--登陆者下拉菜单-->
 			<el-dropdown @command="handleCommand">
